@@ -10,8 +10,8 @@ class Driver(Person):
         self.driving_experience = driving_experience
 
     def __str__(self):
-        print("Class Name :  " + self.__class__.__name__ + "  --  Person's Name :  " + self.name)
-        return "Class Name :  " + self.__class__.__name__ + "  --  Person's Name :  " + self.name
+        #print("Class Name :  " + self.__class__.__name__ + "  --  Person's Name :  " + self.name)
+        return "Class Name :  " + self.__class__.__name__ + "  --  Driver's Name :  " + self.name
 
 
 

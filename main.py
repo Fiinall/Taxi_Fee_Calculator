@@ -1,6 +1,9 @@
 from random_input import *
+from object_samples import *
+from service import *
 
-distance,traffic_coefficient,eta = random_input()
+service1 = Service()
 
-print(distance,traffic_coefficient,eta)
+
+print(service1.total_fee)
 
